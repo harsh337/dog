@@ -1,0 +1,135 @@
+body{
+  font-family: "Montserrat";
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% ;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat-Bold"
+
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height:1.5;
+}
+p{
+  color: #8f8f8f;
+}
+/* Navigation Bar*/
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+ font-weight: bold;
+ margin-left: 100px;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  margin-right: 50px;
+}
+/*download button*/
+.Download-btn{
+  margin: 5% 3% 5% 0;
+}
+/*tittle image*/
+.title-image{
+  width: 55%;
+  padding-top: 20px;
+  transform: rotate(25deg);
+}
+/*feature section*/
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.Icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.Icon:hover{
+  color: #ff4678;
+}
+/*testimonials*/
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+ width: 10%;
+ border-radius:100%;
+ margin:20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px ;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding:3% 2%;
+}
+.pricing-col button{
+  text-align: center;
+  width: 70%; 
+}
+@media (max-width:1020px) {
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-had{
+  font-family: "Montserrat-Light";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer {
+padding: 3% 5%;
+text-align: center;
+}
+.social-media {
+  margin: 20px 20px;
+  cursor: pointer;
+}
